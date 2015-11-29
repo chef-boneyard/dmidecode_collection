@@ -1,7 +1,6 @@
 Platform: Ubuntu
 Platform Version: 14.04
 Hardware or Virtualization Platform: Azure
-dmidecode output:
 
 # dmidecode 2.12
 SMBIOS 2.3 present.
