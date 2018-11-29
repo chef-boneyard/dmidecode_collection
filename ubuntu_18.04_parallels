@@ -1,0 +1,379 @@
+Platform: Ubuntu
+Platform Version: 18.04
+Hardware or Virtualization Platform: Parallels
+
+# dmidecode 3.1
+Getting SMBIOS data from sysfs.
+SMBIOS 2.7 present.
+24 structures occupying 1155 bytes.
+Table at 0x3FFEC000.
+
+Handle 0x0000, DMI type 0, 24 bytes
+BIOS Information
+	Vendor: Parallels Software International Inc.
+	Version: 14.0.1 (45154)
+	Release Date: 09/07/2018
+	Address: 0xF0000
+	Runtime Size: 64 kB
+	ROM Size: 64 kB
+	Characteristics:
+		ISA is supported
+		PCI is supported
+		PNP is supported
+		APM is supported
+		Boot from CD is supported
+		3.5"/720 kB floppy services are supported (int 13h)
+		3.5"/2.88 MB floppy services are supported (int 13h)
+		8042 keyboard services are supported (int 9h)
+		Serial services are supported (int 14h)
+		Printer services are supported (int 17h)
+		CGA/mono video services are supported (int 10h)
+		ACPI is supported
+		Targeted content distribution is supported
+		System is a virtual machine
+	BIOS Revision: 14.0
+	Firmware Revision: 14.0
+
+Handle 0x0001, DMI type 1, 27 bytes
+System Information
+	Manufacturer: Parallels Software International Inc.
+	Product Name: Parallels Virtual Platform
+	Version: None
+	Serial Number: Parallels-9C 13 2F 84 52 1C 45 6D BA FD 9F 12 E8 B4 C5 F0
+	UUID: 842F139C-1C52-6D45-BAFD-9F12E8B4C5F0
+	Wake-up Type: Power Switch
+	SKU Number: Undefined
+	Family: Parallels VM
+
+Handle 0x0002, DMI type 2, 16 bytes
+Base Board Information
+	Manufacturer: Parallels Software International Inc.
+	Product Name: Parallels Virtual Platform
+	Version: None
+	Serial Number: None
+	Asset Tag: Not Specified
+	Features:
+		Board is a hosting board
+		Board is replaceable
+	Location In Chassis: Not Specified
+	Chassis Handle: 0x0003
+	Type: Motherboard
+	Contained Object Handles: 0
+
+Handle 0x0003, DMI type 3, 18 bytes
+Chassis Information
+	Manufacturer: Parallels Software International Inc.
+	Type: Laptop
+	Lock: Not Present
+	Version:
+	Serial Number:
+	Asset Tag:
+	Boot-up State: Safe
+	Power Supply State: Safe
+	Thermal State: Safe
+	Security Status: None
+	OEM Information: 0x00000000
+
+Handle 0x0004, DMI type 4, 35 bytes
+Processor Information
+	Socket Designation: CPU Socket #0
+	Type: Central Processor
+	Family: Core i7
+	Manufacturer: GenuineIntel
+	ID: 61 06 04 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 70, Stepping 1
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Not Specified
+	Voltage: 3.3 V
+	External Clock: 100 MHz
+	Max Speed: 2494 MHz
+	Current Speed: 2494 MHz
+	Status: Populated, Enabled
+	Upgrade: Other
+	L1 Cache Handle: Not Provided
+	L2 Cache Handle: Not Provided
+	L3 Cache Handle: Not Provided
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+
+Handle 0x0005, DMI type 9, 13 bytes
+System Slot Information
+	Designation: ISA slot 1
+	Type: 16-bit ISA
+	Current Usage: Unknown
+	Length: Unknown
+	Characteristics:
+		3.3 V is provided
+
+Handle 0x0006, DMI type 9, 13 bytes
+System Slot Information
+	Designation: PCI slot 1
+	Type: 32-bit PCI
+	Current Usage: Unknown
+	Length: Unknown
+	ID: 1
+	Characteristics:
+		3.3 V is provided
+
+Handle 0x0007, DMI type 9, 13 bytes
+System Slot Information
+	Designation: PCI slot 2
+	Type: 32-bit PCI
+	Current Usage: Unknown
+	Length: Unknown
+	ID: 2
+	Characteristics:
+		3.3 V is provided
+
+Handle 0x0008, DMI type 9, 13 bytes
+System Slot Information
+	Designation: PCI slot 3
+	Type: 32-bit PCI
+	Current Usage: Unknown
+	Length: Unknown
+	ID: 3
+	Characteristics:
+		3.3 V is provided
+
+Handle 0x0009, DMI type 9, 13 bytes
+System Slot Information
+	Designation: PCI slot 4
+	Type: 32-bit PCI
+	Current Usage: Unknown
+	Length: Unknown
+	ID: 4
+	Characteristics:
+		3.3 V is provided
+
+Handle 0x000A, DMI type 9, 13 bytes
+System Slot Information
+	Designation: PCI slot 5
+	Type: 32-bit PCI
+	Current Usage: Unknown
+	Length: Unknown
+	ID: 5
+	Characteristics:
+		3.3 V is provided
+
+Handle 0x000B, DMI type 10, 8 bytes
+On Board Device 1 Information
+	Type: Video
+	Status: Disabled
+	Description: Parallels Video Adapter
+On Board Device 2 Information
+	Type: Sound
+	Status: Disabled
+	Description: Parallels Sound Adapter
+
+Handle 0x000C, DMI type 16, 15 bytes
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 128 GB
+	Error Information Handle: Not Provided
+	Number Of Devices: 8
+
+Handle 0x000D, DMI type 17, 33 bytes
+Memory Device
+	Array Handle: 0x000C
+	Error Information Handle: Not Provided
+	Total Width: 32 bits
+	Data Width: 32 bits
+	Size: 1024 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM #0
+	Bank Locator: BANK #0
+	Type: DRAM
+	Type Detail: EDO
+	Speed: 667 MT/s
+	Manufacturer: Not Specified
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+	Rank: Unknown
+
+Handle 0x000E, DMI type 17, 33 bytes
+Memory Device
+	Array Handle: 0x000C
+	Error Information Handle: Not Provided
+	Total Width: 32 bits
+	Data Width: 32 bits
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM #1
+	Bank Locator: BANK #1
+	Type: DRAM
+	Type Detail: EDO
+	Speed: 667 MT/s
+	Manufacturer: Not Specified
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+	Rank: Unknown
+
+Handle 0x000F, DMI type 17, 33 bytes
+Memory Device
+	Array Handle: 0x000C
+	Error Information Handle: Not Provided
+	Total Width: 32 bits
+	Data Width: 32 bits
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM #2
+	Bank Locator: BANK #2
+	Type: DRAM
+	Type Detail: EDO
+	Speed: 667 MT/s
+	Manufacturer: Not Specified
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+	Rank: Unknown
+
+Handle 0x0010, DMI type 17, 33 bytes
+Memory Device
+	Array Handle: 0x000C
+	Error Information Handle: Not Provided
+	Total Width: 32 bits
+	Data Width: 32 bits
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM #3
+	Bank Locator: BANK #3
+	Type: DRAM
+	Type Detail: EDO
+	Speed: 667 MT/s
+	Manufacturer: Not Specified
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+	Rank: Unknown
+
+Handle 0x0011, DMI type 17, 33 bytes
+Memory Device
+	Array Handle: 0x000C
+	Error Information Handle: Not Provided
+	Total Width: 32 bits
+	Data Width: 32 bits
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM #4
+	Bank Locator: BANK #4
+	Type: DRAM
+	Type Detail: EDO
+	Speed: 667 MT/s
+	Manufacturer: Not Specified
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+	Rank: Unknown
+
+Handle 0x0012, DMI type 17, 33 bytes
+Memory Device
+	Array Handle: 0x000C
+	Error Information Handle: Not Provided
+	Total Width: 32 bits
+	Data Width: 32 bits
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM #5
+	Bank Locator: BANK #5
+	Type: DRAM
+	Type Detail: EDO
+	Speed: 667 MT/s
+	Manufacturer: Not Specified
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+	Rank: Unknown
+
+Handle 0x0013, DMI type 17, 33 bytes
+Memory Device
+	Array Handle: 0x000C
+	Error Information Handle: Not Provided
+	Total Width: 32 bits
+	Data Width: 32 bits
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM #6
+	Bank Locator: BANK #6
+	Type: DRAM
+	Type Detail: EDO
+	Speed: 667 MT/s
+	Manufacturer: Not Specified
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+	Rank: Unknown
+
+Handle 0x0014, DMI type 17, 33 bytes
+Memory Device
+	Array Handle: 0x000C
+	Error Information Handle: Not Provided
+	Total Width: 32 bits
+	Data Width: 32 bits
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM #7
+	Bank Locator: BANK #7
+	Type: DRAM
+	Type Detail: EDO
+	Speed: 667 MT/s
+	Manufacturer: Not Specified
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+	Rank: Unknown
+
+Handle 0x0015, DMI type 19, 15 bytes
+Memory Array Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x0003FFFFFFF
+	Range Size: 1 GB
+	Physical Array Handle: 0x000C
+	Partition Width: 2
+
+Handle 0x0016, DMI type 32, 20 bytes
+System Boot Information
+	Status: No errors detected
+
+Handle 0x0017, DMI type 127, 4 bytes
+End Of Table
