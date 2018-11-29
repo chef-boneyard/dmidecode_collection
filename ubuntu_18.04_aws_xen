@@ -1,17 +1,18 @@
 Platform: Ubuntu
-Platform Version: 14.04
-Hardware or Virtualization Platform: AWS
+Platform Version: 18.04
+Hardware or Virtualization Platform: Xen on AWS
 
-# dmidecode 2.12
-SMBIOS 2.4 present.
-11 structures occupying 310 bytes.
+# dmidecode 3.1
+Getting SMBIOS data from sysfs.
+SMBIOS 2.7 present.
+11 structures occupying 359 bytes.
 Table at 0x000EB01F.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: Xen
 	Version: 4.2.amazon
-	Release Date: 06/01/2015
+	Release Date: 08/24/2006
 	Address: 0xE8000
 	Runtime Size: 96 kB
 	ROM Size: 64 kB
@@ -26,8 +27,8 @@ System Information
 	Manufacturer: Xen
 	Product Name: HVM domU
 	Version: 4.2.amazon
-	Serial Number: ec2a0561-e4d6-8e15-d9c8-2e0e03adcde8
-	UUID: EC2A0561-E4D6-8E15-D9C8-2E0E03ADCDE8
+	Serial Number: ec29c0cb-d561-0e82-0d3f-14fff6e098e3
+	UUID: EC29C0CB-D561-0E82-0D3F-14FFF6E098E3
 	Wake-up Type: Power Switch
 	SKU Number: Not Specified
 	Family: Not Specified
@@ -51,12 +52,12 @@ Processor Information
 	Type: Central Processor
 	Family: Other
 	Manufacturer: Intel
-	ID: F2 06 03 00 FF FB 89 17
+	ID: F1 06 04 00 FF FB 89 17
 	Version: Not Specified
 	Voltage: Unknown
 	External Clock: Unknown
-	Max Speed: 2400 MHz
-	Current Speed: 2400 MHz
+	Max Speed: 2300 MHz
+	Current Speed: 2300 MHz
 	Status: Populated, Enabled
 	Upgrade: Other
 
@@ -64,42 +65,49 @@ Handle 0x0B00, DMI type 11, 5 bytes
 OEM Strings
 	String 1: Xen
 
-Handle 0x1000, DMI type 16, 15 bytes
+Handle 0x1000, DMI type 16, 19 bytes
 Physical Memory Array
 	Location: Other
 	Use: System Memory
 	Error Correction Type: Multi-bit ECC
-	Maximum Capacity: 1 GB
+	Maximum Capacity: 2 GB
 	Error Information Handle: Not Provided
 	Number Of Devices: 1
 
-Handle 0x1100, DMI type 17, 21 bytes
+Handle 0x1100, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x1000
 	Error Information Handle: 0x0000
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 1024 MB
+	Size: 2048 MB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM 0
 	Bank Locator: Not Specified
 	Type: RAM
 	Type Detail: None
+	Speed: Unknown
+	Manufacturer: Not Specified
+	Serial Number: Not Specified
+	Asset Tag: Not Specified
+	Part Number: Not Specified
+	Rank: Unknown
+	Configured Clock Speed: Unknown
 
-Handle 0x1300, DMI type 19, 15 bytes
+Handle 0x1300, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x0003FFFFFFF
-	Range Size: 1 GB
+	Ending Address: 0x0007FFFFFFF
+	Range Size: 2 GB
 	Physical Array Handle: 0x1000
 	Partition Width: 1
 
-Handle 0x1400, DMI type 20, 19 bytes
+Handle 0x1400, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x0003FFFFFFF
-	Range Size: 1 GB
+	Ending Address: 0x0007FFFFFFF
+	Range Size: 2 GB
 	Physical Device Handle: 0x1100
 	Memory Array Mapped Address Handle: 0x1300
 	Partition Row Position: 1
@@ -110,4 +118,3 @@ System Boot Information
 
 Handle 0x7F00, DMI type 127, 4 bytes
 End Of Table
-
