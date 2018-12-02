@@ -1,0 +1,11 @@
+## If you have an openstack system please submit the complete dmidecode output
+
+System Information
+        Manufacturer: Red Hat Inc.
+        Product Name: OpenStack Nova
+        Version: 2014.1.2-1.el6
+        Serial Number: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+        UUID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+        Wake-up Type: Power Switch
+        SKU Number: Not Specified
+        Family: Red Hat Enterprise Linux

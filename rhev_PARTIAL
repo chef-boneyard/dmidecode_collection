@@ -1,0 +1,11 @@
+## If you have a rhev system please submit the complete dmidecode output
+
+System Information
+  Manufacturer: Red Hat
+  Product Name: RHEV Hypervisor
+  Version: 6.7-20150911.0.el6ev
+  Serial Number: 00000000-0000-0000-0000-000000000000
+  UUID: E7F1DC93-3DA1-4EC3-A6AB-F6904BA87985
+  Wake-up Type: Power Switch
+  SKU Number: Not Specified
+  Family: Red Hat Enterprise Linux
